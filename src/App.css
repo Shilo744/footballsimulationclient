@@ -1,0 +1,293 @@
+.App{
+  margin-top: 0.25vw;
+}
+.margin-top{
+  margin-top: 0.5vw;
+}
+.margin-top1{
+  margin-top: 0.25vw;
+}
+.start-position{
+  display: inline-block;
+}
+.absolute{
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.table {
+  border: 0.15vw solid gold;
+  border-radius: 0.5vw;
+  margin-left: 18%;
+  margin-top:2%;
+  width: 64%;
+  backdrop-filter: brightness(0.5);
+  color: white;
+}
+.thin-table {
+  border: 0.15vw solid gold;
+  border-radius: 0.5vw;
+  margin-left: 31%;
+  margin-top:1.8vw;
+  width: 38%;
+  height: 32vh;
+  backdrop-filter: brightness(0.5);
+  color: mintcream;
+}
+.no-frame{
+  border: 0 solid gold;
+}
+.gambling{
+  margin-left: 5%;
+  width: 90%;
+}
+.gamble-button{
+  width: 90%;
+  border-radius: 0.4vw;
+  font-size: 1.5vw;
+  background: radial-gradient(circle at bottom,
+  yellow,gold,goldenrod,goldenrod),100%;
+}
+.balance{
+  font-size: 1.95vw;
+  font-weight: 700;
+  text-align: center;
+  font-family: serif;
+  border-radius: 1vh;
+  width: 25%;
+  border: 0.1vw solid gold;
+  backdrop-filter: brightness(0.5);
+  margin-left: 37.5%;
+}
+.gamble-form-button{
+  margin-top: 3vw;
+  margin-bottom: 3vh;
+  width: 50%;
+  border-radius: 0.6vw;
+  font-size: 1.7vw;
+  padding: 0.5vw;
+  font-family: "Arial Rounded MT Bold", serif;
+  font-weight: bold;
+  background: radial-gradient(circle at bottom,
+  yellow,gold,goldenrod,goldenrod),100%;
+}
+.button-higher{
+  margin-top: 1vh;
+}
+.text{
+  font-size: 1.802vw;
+  font-weight: 700;
+  text-align: center;
+  font-family: serif;
+}
+.center{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.gambling-form{
+  border: 0.15vw inset gold;
+  border-radius: 0.5vw;
+  margin-left: 31%;
+  margin-top:1.6%;
+  width: 38%;
+  height: 75vh;
+  backdrop-filter: brightness(0.5);
+  color: white;
+}
+.bounds{
+  margin-left: 0.8vw;
+  border-radius: 10%;
+  font-size: 1.25vw;
+  border: 0.1vw inset white;
+  background: radial-gradient(circle at top,
+  goldenrod,goldenrod,gold),100%;}
+select{
+  font-size: 20px;
+  font-weight: 300;
+}
+td,tr,th{
+  text-align: center;
+  border-radius: 0.1vw;
+}
+tr:hover,th:hover,thead:hover{
+  filter: drop-shadow(1px 1px 1px gold);
+
+}
+a:link {
+  text-decoration: none;
+}
+
+.purple{
+  color: rebeccapurple;
+}
+.red{
+  color: red;
+}
+.backgroundGreen{
+  background-color: green;
+}
+.gold-background{
+  background: radial-gradient(circle at top,
+  goldenrod,goldenrod,gold,yellow),100%;
+}
+
+.white{
+  color: mintcream;
+}
+.gray{
+  color: gray;
+}
+.blue{
+  color: rgb(47,78,156);
+}
+.dark-blue{
+  color:navy;
+}
+
+body{
+  /*background-image: url("https://thumblr.uniid.it/blog_component/149437/cc41be364e0e.jpg");*/
+  background-image: url('./screenPhoto1.jpeg'); /* כתובת התמונה */
+
+  /*background-image: url("https://thumbs.dreamstime.com/b/green-grass-field-background-soccer-football-sports-lawn-pattern-texture-close-up-image-138448226.jpg");*/
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-blend-mode: multiply;
+
+}
+.margin{
+  margin-left: 0.5vw;
+}
+.gold{
+  color: gold;
+}
+.green{
+  color: limegreen;
+}
+.black{
+  color: black;
+}
+.silver{
+  color: silver;
+}
+div{
+  color: white;
+}
+.active{
+  color: aliceblue;
+  background: radial-gradient(circle at top,
+  goldenrod,goldenrod,gold,yellow),100%;
+  border: 2px solid white;
+}
+/*new css*/
+.LoginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-container {
+  width: 32vw;
+  height: 31vw;
+  padding: 1vw 1.2vw 2vw 1.2vw;
+  border: 0.05vw solid lightgray;
+  border-radius: 0.3vw;
+  backdrop-filter: brightness(0.55);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.connection-buttons {
+  width: 100%;
+  padding: 1.5vh;
+  font-size: 1.3vw;
+  background: radial-gradient(circle at top,
+  goldenrod,goldenrod,gold),100%;
+  color: #fff;
+  border: none;
+  border-radius: 1.5vh;
+  cursor: pointer;
+}
+
+.margin-button {
+  margin-bottom: 1.2vw;
+}
+
+.margin-button input {
+  width: 96.6%;
+  padding: 0.45vw;
+  font-size: 1.05vw;
+  border: 1px solid #ccc;
+  border-radius: 0.6vw;
+  margin: 0.1vw;
+}
+.login-headline{
+  text-align: center;
+  font-size: 2.1vw;
+  padding: 2vw;
+  font-weight: bold;
+}
+.headline{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2.6vw;
+  font-weight: bold;
+  color: white;
+  font-family: "Arial Rounded MT Bold", serif;
+}
+.error-message {
+  color: #f00;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.disconnect {
+  width: 5.6%;
+  padding: 0.45vw;
+  font-size: 0.9vw;
+  color: lightgray;
+  background: radial-gradient(circle at top right,
+    red,darkred),100% ;
+  border-radius: 0.7vh;
+  cursor: pointer;
+  position: absolute;
+  top: 5vh;
+  right: 0.5vw;
+  transform: translate(0, -100%);
+}
+.disconnect:hover{
+  background: radial-gradient(circle at top right,
+  red,orangered),100% ;
+}
+button:hover {
+background: radial-gradient(circle at top,
+goldenrod,goldenrod,gold,yellow),100%;
+}
+.tab-buttons {
+  display: flex;
+}
+
+.tab-buttons button {
+  flex: 1;
+  margin-right: 0.8vw;
+}
+
+.tab-buttons button:last-child {
+  margin-right: 0;
+}
+label{
+  font-size: 1.15vw;
+}
+.x{
+  border-radius: 100%;
+  font-weight: bolder;
+  width: 1.5vw;
+  height: 1.5vw;
+ margin-left: 92%;
+  border: 0.12vw outset gold;
+  background-color: rgba(0, 0, 0, 0); /* שחור שקוף */
+  background-clip: padding-box; /* מגביל את צבע הרקע לתחום הרי襯ת */
+}
